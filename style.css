@@ -1,0 +1,79 @@
+.delani{
+    background-image: url("assets/backgrounds/h_img.jpg");
+    height:620px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.logo{
+    position: relative;
+    right:-48%;
+    margin-top: 10%;
+}
+.icon{
+    position: relative;
+    right:-51%;
+    margin-top: 10%;
+}
+.aboutus{
+    padding-top: 40px;
+}
+.services{
+    background-image: url("assets/backgrounds/s_image.jpg");
+    background-size: cover;
+    padding-top: 70px;
+    padding-bottom: 70px;
+     text-align: center;    
+}
+
+.two{
+    margin-top: 30px
+}
+
+
+.contactus{
+    background-image: url("assets/backgrounds/c_image.jpg");
+    background-size: cover;
+    background-position: center;
+    margin-top: 50px;
+}
+.contact{
+    padding-top: 3%
+}
+.footer{
+    padding: 40px;
+}
+/* for jquery functions */
+#hide1,#hide2,#hide3{
+    display: none;
+    text-align: center;  
+}
+
+input[type=text]{
+    background:transparent;
+}
+input[type=email]{
+    background: transparent;
+}
+textarea[type=text]{
+    background: transparent;
+}
+#hover1{
+    display: none;
+}
+.overlay1,.overlay2,.overlay3,.overlay4,.overlay5,.overlay6,.overlay7,.overlay8{
+    display:none;
+    position: relative;
+    bottom:0px;
+    background:white;
+    opacity: 0.5;
+    width: 90%;
+    height: 100%;
+}
+
+.p{
+    font-size: 40px;
+    color:brown;
+    padding-top: 30%;
+    padding-bottom: 50%;
+    font-family: 'Playfair Display', serif;
+}
